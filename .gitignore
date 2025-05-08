@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+uploads/
+Prediction_Output_File/
+users.db
+*.log
+
+# Keep these directories and files
+!file_methods/
+!preprocessing/
+!EDA/
+!simple_predict/
+!models/
+!templates/
+
+# But ignore specific files in these directories
+file_methods/__pycache__/
+preprocessing/__pycache__/
+EDA/__pycache__/
+simple_predict/__pycache__/
+
+# Keep model files
+!models/KMeans/
+!models/*.sav
+!models/KMeans/*.sav

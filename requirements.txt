@@ -1,0 +1,19 @@
+# Core dependencies
+flask==2.0.1
+flask-cors==3.0.10
+flask-monitoringdashboard==3.1.1
+werkzeug==2.0.1
+gunicorn==20.1.0
+
+# Data processing and ML dependencies
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.0.2
+matplotlib==3.5.3
+seaborn==0.12.2
+joblib==1.2.0
+xgboost==1.7.3
+
+# Build dependencies
+wheel==0.38.4
+setuptools==65.5.1
